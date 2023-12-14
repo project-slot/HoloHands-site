@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HoloHands.</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -39,7 +40,7 @@
     <table id="top_part">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h1>Controll your computer with gestures, just webcam.</h1>
+                <h1>Your webcam can do much more than you thought.</h1>
                 <div style="display: flex; gap: 1vw;">
                     <a href="#work"><button class="btn_two">Instructions</button></a>
                     <button class="btn_one">Download .exe</button>
@@ -70,7 +71,12 @@
     
     <div id="work">
         <h1>Gestures instructions</h1>
-        <p>Basic gestures to use. Each gesture can have 2 different functionality depending on whether you are using it on [3D navigation] or [mouse interaction].</p>
+        <p style="color: rgb(169, 169, 169);">
+            Basic gestures to use. Each gesture can have 2 different functionality depending on whether you are using it on [3D navigation] or [mouse interaction].
+            <br>HoloHands understands a range of finger gestures to allow for simple and intuitive interaction with computer.
+
+
+        </p>
         <div id="photos">
             <img onclick="magnify($(this).attr('src'))" src="assets/instructions_img/1.png">
             <img onclick="magnify($(this).attr('src'))" src="assets/instructions_img/2.png">
@@ -78,6 +84,7 @@
             <img onclick="magnify($(this).attr('src'))" src="assets/instructions_img/4.png">
             <img onclick="magnify($(this).attr('src'))" src="assets/instructions_img/5.png">
         </div>
+        <p>and more...</p>
     </div>
     
     <div id="footer">
