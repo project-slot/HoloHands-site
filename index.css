@@ -21,11 +21,11 @@ body {
 button {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    padding: 10px 40px;
+    padding: 12px 25px;
     width: fit-content;
-    border-radius: 80px;
+    border-radius: 8px;
     font-weight: bold;
-    margin: 1vh 0px;
+    margin: 3vh 0px;
     transition: 0.4s ease-in-out;
 }
 img {
@@ -174,7 +174,7 @@ header table {
     text-align:left;
 }
 .social {
-    color:var(--secondary);
+    color:var(--text-tertiary);
     font-size:23px;
     padding:12px 17px;
     border-radius:50%;
